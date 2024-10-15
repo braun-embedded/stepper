@@ -6,6 +6,9 @@
 
 ## About
 
+**This library might not be suited for most projects these days. See _Status_
+below.**
+
 Stepper aims to provide an interface that abstracts over stepper motor drivers
 and controllers, exposing high-level hardware features directly where available,
 or providing software fallbacks where hardware support is lacking.
@@ -34,17 +37,16 @@ following guides to learn more:
 
 ## Status
 
-Active development on Stepper has ceased, but the project is still passively
-maintained.
+Stepper has only been passively maintained for many years now. While there have
+been some contributions over those years, it seems to increasingly fall into
+disrepair.
 
-The library is usable, but far from mature. There are some known limitations
-that are documented on the
-[issue tracker](https://github.com/braun-embedded/stepper/issues).
+I recommend that you look at other options before using this library. There
+might be better ones out there these days. If you still decide to use Stepper,
+make sure to check the
+[issue tracker](https://github.com/braun-embedded/stepper/issues) first.
 
-Stepper is maintained by:
-
-- Hanno Braun ([@hannobraun])
-- Jesse Braham ([@jessebraham])
+Pull requests to fix any problems are still welcome.
 
 ## Usage
 
